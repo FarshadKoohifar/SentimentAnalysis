@@ -55,7 +55,7 @@ body {
 /*============= LANDING PAGE =============*/
 
 .home-inner {
-  background-image: url('../../img/home/code.jpg');
+  background-image: url('../img/computers.png');
 }
 .caption {
   width: 100%;
@@ -157,7 +157,7 @@ h3.heading {
 /*===== FIXED BACKGROUND IMG DARK =====*/
 
 #fixed {
-  background-image: url('img/fixed/apple.png');
+  background-image: url('../img/fixed/apple.png');
   z-index: -1;
 }
 .dark {
@@ -242,7 +242,7 @@ img.example-image {
 /*============= TEAM SECTION FIXED BG IMG LIGHT =============*/
 
 #fixed-2 {
-  background-image: url('img/fixed/office.png');
+  background-image: url('../img/fixed/office.png');
   z-index: -1;
 }
 .light {
@@ -324,7 +324,7 @@ blockquote .svg-inline--fa {
 /*============= CONTACT SECTION =============*/
 
 footer {
-  background: url('img/footer/footer.png') no-repeat;
+  background: url('../img/footer/footer.png') no-repeat;
   /*background-color: #40474e;*/
   background-size: cover;
   color: white;
@@ -439,13 +439,13 @@ a.top-scroll:hover {
     font-size: 1.8rem;
   }
   #fixed {
-    background-image: url('img/fixed/apple-mobile.png');
+    background-image: url('../img/fixed/apple-mobile.png');
   }
   #fixed-2 {
-    background-image: url('img/fixed/office-mobile.png');
+    background-image: url('../img/fixed/office-mobile.png');
   }
   footer {
-    background: url('img/footer/footer-mobile.png') no-repeat;
+    background: url('../img/footer/footer-mobile.png') no-repeat;
   }
   .clients img {
     max-width: 50%;

@@ -1,12 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>title</title>
-    <!--link rel="stylesheet" href="style.css"-->
-    <!--script src="script.js"></script-->
-  </head>
-  <body>
-    DDD
-  </body>
+	<!--- head.html-->{% include 'head.html' %}
+<body data-spy="scroll" data-target="#navbarResponsive">
+
+<!--- Start Home section -->
+<div id="home">
+	<!--- nav.html -->{% include 'nav.html' %}
+	<!--- landing.html -->{% include 'landing.html' %}
+	<!--- caption.html -->{% include 'caption.html' %}
+	<!--- arrow.html -->{% include 'arrow.html' %}
+</div>
+<!--- End Home Section -->
+
+<!--- Start Features Section -->
+<div id="features" class="offset">
+	<!--- animation.html -->{% include 'animation.html' %}
+	<!--- jumbotron.html -->{% include 'jumbotron.html' %}
+	<!--- fixed.html -->{% include 'fixed.html' %}
+</div>
+<!--- End of Features Section -->
+
+<!--- Start Portfolio Section -->
+<div id="portfolio" class="offset">
+	<!--- portfolio.html -->{% include 'portfolio.html' %}
+</div>
+<!--- End of Portfolio Section -->
+
+<!--- Start Pricing Section -->
+<div id="pricing" class="offset">
+	<!--- pricing.html -->{% include 'pricing.html' %}
+</div>
+<!--- End of Pricing Section -->
+
+<!--- Start Team Section -->
+<div id="team" class="offset">
+	<!--- team.html -->{% include 'team.html' %}
+</div>
+<!--- End Team Section -->
+
+<!--- Start Skills Section -->
+<div id="skills" class="offset">
+	<!--- skills.html -->{% include 'skills.html' %}
+</div>
+<!--- End of Skills Section -->
+
+<!--- Start Clients Section -->
+<div id="clients" class="offset">
+	<!--- clients.html -->{% include 'clients.html' %}
+</div>
+<!--- End of Clients Section -->
+
+<!--- Start Contact Section -->
+<div id="contact" class="offset">
+	<!--- contact.html -->{% include 'contact.html' %}
+</div>
+<!--- End Contact Section -->
+
+<!--- Top Scroll -->
+<a href="#home" class="top-scroll">
+	<i class="fas fa-angle-up"></i>
+</a>
+<!--- End of Top Scroll -->
+
+<!--- Script Source Files -->
+<script src="{{url_for('static', filename='js/jquery-3.3.1.min.js')}}"></script>
+<script src="{{url_for('static', filename='bootstrap-4.3.1-dist/js/bootstrap.min.js')}}"></script>
+<script src="https://use.fontawesome.com/releases/v5.8.1/js/all.js"></script>
+<script src="{{url_for('static', filename='js/custom.js')}}"></script>
+<script src="{{url_for('static', filename='js/jquery.waypoints.min.js')}}"></script>
+<script src="{{url_for('static', filename='js/waypoints.js')}}"></script>
+<script src="{{url_for('static', filename='js/lightbox.js')}}"></script>
+<script src="{{url_for('static', filename='js/owl.carousel.js')}}"></script>
+<script src="{{url_for('static', filename='js/jquery.counterup.js')}}"></script>
+<script src="{{url_for('static', filename='js/validator.js')}}"></script>
+<script src="{{url_for('static', filename='js/contact.js')}}"></script>
+<!--- End of Script Source Files -->
+
+</body>
 </html>

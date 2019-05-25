@@ -1,0 +1,39 @@
+TODO
+
+make each section of the current layout.html in a seperate template.
+
+make the name and reference of each section of the new templates be programmatically set, so that I can change the order and references on the fly.
+
+make images for each of the projects:
+    Ferocious Kalman
+    Sentiment !!!
+    Papers
+        Posterior CRLB
+        Bayesian inference
+    Chess AI
+    Traffic AI
+    (TENSOR FLOW)
+    (WE NEED 8)
+    (Ray tracing)
+    (CUDA DSP)
+
+Make logos
+
+Make sentiment analysis
+
+Integrate Ferocious Kalman so that it has the same nav and footer
+
+Take a good photo!
+
+Skills:
+    TensorFlow (Picture should include TF logo and code, maybe neural networks, maybe tensorboard)
+    Java (picture should include an android device)
+    DSP (picture should include gnuradio, water fall?)
+    C++
+    Matlab
+    Accelerated processing (CUDA)
+    Software defined radio
+    Front end (HTML/CSS/JS/Bootstrap)
+    Back end (Python/flask/MongoDB)
+
+Complete the resume, with references (Mihai, Sadati, Guvenc), Add website. create a link and serve it.
