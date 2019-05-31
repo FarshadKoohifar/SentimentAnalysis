@@ -1,7 +1,5 @@
 TODO
 
-make each section of the current layout.html in a seperate template.
-
 make the name and reference of each section of the new templates be programmatically set, so that I can change the order and references on the fly.
 
 make images for each of the projects:
@@ -16,8 +14,6 @@ make images for each of the projects:
     (WE NEED 8)
     (Ray tracing)
     (CUDA DSP)
-
-Make logos
 
 Make sentiment analysis
 

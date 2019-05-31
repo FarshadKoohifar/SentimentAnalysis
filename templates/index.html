@@ -3,52 +3,31 @@
 	<!--- head.html-->{% include 'head.html' %}
 <body data-spy="scroll" data-target="#navbarResponsive">
 
-<!--- Start Home section -->
 <div id="home">
 	<!--- nav.html -->{% include 'nav.html' %}
 	<!--- landing.html -->{% include 'landing.html' %}
 	<!--- caption.html -->{% include 'caption.html' %}
 	<!--- arrow.html -->{% include 'arrow.html' %}
 </div>
-<!--- End Home Section -->
 
-<!--- Start Features Section -->
+<div id="about" class="offset">
+	{% include 'about.html' %}
+</div>
+
 <div id="features" class="offset">
 	<!--- animation.html -->{% include 'animation.html' %}
 	<!--- jumbotron.html -->{% include 'jumbotron.html' %}
 	<!--- fixed.html -->{% include 'fixed.html' %}
 </div>
-<!--- End of Features Section -->
 
-<!--- Start Portfolio Section -->
-<div id="portfolio" class="offset">
-	<!--- portfolio.html -->{% include 'portfolio.html' %}
-</div>
-<!--- End of Portfolio Section -->
 
-<!--- Start Pricing Section -->
-<div id="pricing" class="offset">
-	<!--- pricing.html -->{% include 'pricing.html' %}
+<div id="projects" class="offset">
+	{% include 'projects.html' %}
 </div>
-<!--- End of Pricing Section -->
 
-<!--- Start Team Section -->
-<div id="team" class="offset">
-	<!--- team.html -->{% include 'team.html' %}
+<div id="publications" class="offset">
+	{% include 'publications.html' %}
 </div>
-<!--- End Team Section -->
-
-<!--- Start Skills Section -->
-<div id="skills" class="offset">
-	<!--- skills.html -->{% include 'skills.html' %}
-</div>
-<!--- End of Skills Section -->
-
-<!--- Start Clients Section -->
-<div id="clients" class="offset">
-	<!--- clients.html -->{% include 'clients.html' %}
-</div>
-<!--- End of Clients Section -->
 
 <!--- Start Contact Section -->
 <div id="contact" class="offset">

@@ -305,7 +305,7 @@ img.example-image {
 /*============= CLIENTS SECTION =============*/
 
 .clients img {
-  width: 100%;
+  width: 50%;
   height: auto;
   border-radius: 50%;
   transition: transform .3s ease;
